@@ -1,18 +1,10 @@
 package com.yelk11.idle_core;
 
-public class Item {
+public class Item implements Makeable{
 
-	private long itemCost;
-	private long value;
-	private String name;
-	private Task task;
-	
-	Item(String newName, long newValue, long tickRate)
-	{
-		this.name = newName;
-		this.value = newValue;
+	public void make() {
+		// TODO Auto-generated method stub
+		
 	}
-	
-	
 	
 }
